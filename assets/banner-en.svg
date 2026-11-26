@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="286" viewBox="0 0 920 286" role="img" aria-labelledby="title desc">
+  <title id="title">HELLO, WORLD. FREExuanwei, Full-Stack Developer</title>
+  <desc id="desc">BUILD · LEARN · IMPROVE. Three geometric layers on a midnight-blue background.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#091426"/>
+      <stop offset="1" stop-color="#172c4a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="77%" cy="48%" r="51%">
+      <stop stop-color="#2478ec" stop-opacity=".33"/>
+      <stop offset="1" stop-color="#2478ec" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wire" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#3970b4"/>
+      <stop offset="1" stop-color="#80e5ff"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#61cbff" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#2653b9" stop-opacity=".08"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#86bfff" stroke-opacity=".14"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="918" height="284" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#base)" d="M0 0h920v286H0z"/>
+    <path fill="url(#halo)" d="M0 0h920v286H0z"/>
+    <path fill="url(#grid)" d="M548 0h372v286H548z" opacity=".64"/>
+    <g fill="none" stroke="#629eea" stroke-opacity=".3">
+      <path d="M574 247h79l31-31h164l29-29h43"/>
+      <path d="M612 49h55l21 21h102l33-34h97"/>
+      <circle cx="747" cy="147" r="109" stroke-dasharray="2 8"/>
+      <path d="M609 147h25m226 0h23M747 23v12m0 219v10"/>
+    </g>
+    <g stroke="url(#wire)" stroke-width="2" stroke-linejoin="round">
+      <path d="m628 171 119-52 119 52-119 57z" fill="url(#plane)" opacity=".48"/>
+      <path d="m628 140 119-52 119 52-119 57z" fill="url(#plane)" opacity=".71"/>
+      <path d="m628 109 119-52 119 52-119 57z" fill="url(#plane)"/>
+    </g>
+    <path d="m698 109 49-21 49 21-49 23z" fill="none" stroke="#a0ebff" stroke-width="1.5"/>
+    <path d="M747 57v31m0 44v96M628 109v62m238-62v62" stroke="#93dfff" stroke-opacity=".44" stroke-dasharray="3 5" fill="none"/>
+    <g fill="#80e5ff">
+      <circle cx="747" cy="109" r="10" opacity=".15"/>
+      <circle cx="747" cy="109" r="3.5"/>
+      <circle cx="628" cy="109" r="3"/>
+      <circle cx="866" cy="109" r="3"/>
+      <circle cx="747" cy="228" r="3"/>
+    </g>
+    <path d="M52 43h26" stroke="#65d8ff" stroke-width="2" stroke-linecap="round"/>
+    <text x="91" y="50" fill="#a5ddff" font-family="'Lucida Console', Consolas, monospace" font-size="29" font-weight="700" letter-spacing="1.6">HELLO, WORLD.</text>
+    <text x="49" y="131" fill="#f4f8ff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-2">FREExuanwei</text>
+    <text x="52" y="181" fill="#ccdff7" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600">Full-Stack Developer</text>
+    <path d="M52 209h457" stroke="#7aa7e5" stroke-opacity=".44"/>
+    <text x="52" y="247" fill="#9dddf8" font-family="'Lucida Console', Consolas, monospace" font-size="29" font-weight="700" letter-spacing="1.6">BUILD · LEARN · IMPROVE</text>
+  </g>
+  <rect x="1" y="1" width="918" height="284" rx="20" fill="none" stroke="#537da9" stroke-width="2"/>
+</svg>
